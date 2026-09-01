@@ -1,0 +1,6 @@
+{
+  "name": "BurglarAlarms.io",
+  "description": "Smart Intrusion Detection Systems, Interactive Alarm Zone Simulator, System Builder, and Commercial & Residential Security Guide.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
