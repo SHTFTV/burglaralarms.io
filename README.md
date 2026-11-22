@@ -1,20 +1,17 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# BurglarAlarms.io
 
-# Run and deploy your AI Studio app
+Buyer education for home intrusion alarm systems. The Vite build publishes the
+homepage and the static, source-linked guides in `public/guides/`. The homepage
+artwork is an original generated editorial illustration.
 
-This contains everything you need to run your app locally.
+## Build
 
-View your app in AI Studio: https://ai.studio/apps/5c5b2025-e329-4347-81e6-ee5078813054
+Run `npm ci` and `npm run build`. Vercel serves the resulting `dist/` directory.
+Production uses the existing burglaralarms-io project.
 
-## Run Locally
+## Publishing
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Review claims and cited sources before updating guides. Keep the canonical
+URLs and sitemap in sync when adding a page. Verify the public page body,
+canonical and status after production deployment. Treat DNS, production
+deployment, and unattended publishing as separate verification steps.
